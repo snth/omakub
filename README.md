@@ -4,6 +4,12 @@ Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern 
 
 Watch the introduction video and read more at [omakub.org](https://omakub.org).
 
+# Install
+
+Install my personal configuration with:
+
+    wget -qO- https://raw.githubusercontent.com/snth/omakub/main/boot.sh | bash
+
 ## Contributing to the documentation
 
 Please help us improve Omakub's documentation on the [basecamp/omakub-site repository](https://github.com/basecamp/omakub-site).

@@ -4,4 +4,4 @@ echo 'deb [signed-by=/usr/share/keyrings/wezterm-fury.gpg] https://apt.fury.io/w
 
 # Install wezterm
 sudo apt update
-sudo apt install wezterm
+sudo apt install -y wezterm

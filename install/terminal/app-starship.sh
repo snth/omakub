@@ -1,1 +1,1 @@
-curl -sS https://starship.rs/install.sh | sudo sh
+curl -sS https://starship.rs/install.sh | sh -s -- -b ~/.local/bin
