@@ -1,8 +1,10 @@
 # Adapted from: https://www.chezmoi.io/install/#one-line-package-install
-sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply git@github.com:snth/dotfiles.git
+
+# I've disabled the automatic dotfiles install because that requires the ssh keys to be set up.
+# sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply git@github.com:snth/dotfiles.git
 
 # Basic install
-# > sh -c "$(curl -fsLS get.chezmoi.io/lb)"
+sh -c "$(curl -fsLS get.chezmoi.io/lb)"
 
 # If you already have a dotfiles repo using chezmoi on GitHub at https://github.com/$GITHUB_USERNAME/dotfiles then you can install chezmoi and your dotfiles with the single command:
 
