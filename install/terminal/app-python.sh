@@ -1,1 +1,1 @@
-nix-env -iA nixpkgs.python3
+sudo apt install -y python3-pip
