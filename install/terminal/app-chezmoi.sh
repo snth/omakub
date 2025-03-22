@@ -4,7 +4,9 @@
 # sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply git@github.com:snth/dotfiles.git
 
 # Basic install
+pushd ~
 sh -c "$(curl -fsLS get.chezmoi.io/lb)"
+popd
 
 # If you already have a dotfiles repo using chezmoi on GitHub at https://github.com/$GITHUB_USERNAME/dotfiles then you can install chezmoi and your dotfiles with the single command:
 
